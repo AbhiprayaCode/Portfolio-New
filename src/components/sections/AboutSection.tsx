@@ -18,9 +18,8 @@ const AboutSection = () => {
 
         <AnimationContainer customClassName="w-full flex flex-col gap-5 mb-8">
           <p className="text-base text-gray-600 dark:text-gray-400">
-            Hey there! 👋 I'm <strong>{siteConfig.author}</strong>, a Full Stack
-            developer who loves to create new things. I have uploaded some
-            pretty cool stuff, so make sure to check it out on my
+            Ola, Amigos! 👋 I'm <strong>{siteConfig.author}</strong>, a Full Stack
+            developer who loves to create new things and currently interested in Cybersecurity Analyst or Defensive Security. I have uploaded some pretty cool stuff, so make sure to check it out on my 
             <Link
               href={`https://github.com/${siteConfig.social.github}`}
               target="_blank"
@@ -29,40 +28,24 @@ const AboutSection = () => {
             >
               GitHub profile
             </Link>{' '}
-            ✌️.
+            😉.
           </p>
 
           <ul className="text-base text-gray-600 dark:text-gray-400 list-disc pl-6 space-y-2 mt-4">
             <li>
-              ✨ I spend my spare time building and developing free Apps and Web
-              Applications because I want to continue growing and honing my
-              skills 😄.
+              ✨ I spend my spare time building and developing Web
+              Applications because I want to expand my knowledge and skills 😄.
             </li>
             <li>
-              📚 I'm currently focused on learning and exploring the exciting
-              fields of Machine Learning (ML) and Artificial Intelligence (AI),
-              including neural networks and other related topics.
+              📚 I'm currently focused on learning Defensive Cybersecurity especially to prepare as a SOC Analyst.
             </li>
             <li>
-              🤝 I'm always excited to collaborate with others and contribute to
-              different projects. If you have a project that needs an extra set
-              of hands or fresh ideas, feel free to reach out to me!
-            </li>
-            <li>
-              🔧 I have experience working with various programming languages
-              and technologies, ensuring that I can adapt and contribute
-              effectively to your project's tech stack.
-            </li>
-            <li>
-              📬 If you come across anything interesting in my projects or have
-              a project you'd like me to collaborate on, please don't hesitate
-              to get in touch. Let's create something awesome together!
+              🤝 I'm always excited to collaborate with others. So, if you have a project that needs some help, feel free to reach out me!
             </li>
           </ul>
 
           <p className="text-base text-gray-600 dark:text-gray-400 mt-4">
-            Feel free to explore my projects and get in touch for
-            collaborations!
+            Feel free to explore my projects and get in touch with me!
           </p>
         </AnimationContainer>
         <AnimationContainer customClassName="w-full ">
@@ -77,14 +60,14 @@ const AboutSection = () => {
           <ContactMe />
         </AnimationContainer>
         {/* Support Me Section */}
-        <AnimationContainer customClassName="w-full mt-16">
+        {/* <AnimationContainer customClassName="w-full mt-16">
           <SupportMe />
-        </AnimationContainer>
+        </AnimationContainer> */}
 
         {/* FAQ Section */}
-        <AnimationContainer customClassName="w-full mt-16">
+        {/* <AnimationContainer customClassName="w-full mt-16">
           <FAQSection />
-        </AnimationContainer>
+        </AnimationContainer> */}
       </div>
     </SectionContainer>
   );

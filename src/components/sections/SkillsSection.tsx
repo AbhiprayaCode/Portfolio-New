@@ -11,13 +11,13 @@ const MySkills = () => {
       <div className="flex flex-col gap-5">
         <SectionHeader
           title="Skills"
-          content="I’ve been programming for over years, gaining experience with a variety of programming languages, frameworks, and tools. I’ve worked on both Frontend and Backend technologies, allowing me to understand and contribute to the entire development process."
+          content="I’ve been programming for 2 years, gaining experience with a variety of programming languages, frameworks, and tools. I’ve worked on full-stack and Cybersecurity technologies, allowing me to understand and contribute to the entire development process and stay up-to-date with the latest security trends."
         />
 
         <div className="w-full flex flex-col gap-8">
           <div className="w-full flex justify-center items-center">
             <Image
-              src="https://skillicons.dev/icons?i=androidstudio,angular,atom,aws,azure,bash,blender,bootstrap,c,cs,cpp,cloudflare,codepen,css,dart,django,docker,dotnet,eclipse,express,figma,firebase,flask,flutter,gcp,git,github,githubactions,gitlab,go,gradle,gulp,heroku,html,idea,java,js,jquery,kotlin,linkedin,linux,md,mongodb,mysql,netlify,nextjs,nginx,nodejs,ps,php,rust,svelte,tauri,electron,postgres,powershell,py,pytorch,qt,react,redux,regex,sass,sqlite,stackoverflow,svg,tailwind,tensorflow,twitter,ts,unity,unreal,vercel,visualstudio,vite,vscode,vue,webflow,webpack,wordpress&perline=15"
+              src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,js,nextjs,nodejs,php,laravel,mongodb,mysql,firebase,androidstudio,flutter,py,linux,bash,powershell,vercel,vscode&perline=15"
               alt="My Skills"
               className="relative w-full h-full max-w-3xl"
               width={500}

@@ -23,8 +23,8 @@ const Hero = () => {
         </h1>
 
         <h2 className="flex items-center gap-2 text-lg lg:text-xl text-gray-700 dark:text-gray-400 mb-8 mx-auto lg:mx-0">
-          <span className="relative w-[max-content] font-mono typing-animation text-gray-800 dark:text-gray-200">
-            I'm a Full Stack Developer
+          <span className="relative w-[max-content] font-mono typing-animation text-gray-800 dark:text-gray-200 text-wrap">
+            IT and Cybersecurity Enthusiasts
           </span>
         </h2>
 
@@ -36,12 +36,12 @@ const Hero = () => {
           >
             Hire Me
           </Link>
-          <Link
+          {/* <Link
             href={siteConfig.social.kofi}
             className="px-4 py-2 sm:px-6 sm:py-3 text-pink-500 font-bold rounded-lg border border-pink-500 hover:bg-pink-500 hover:text-white transition duration-300 backdrop-blur-sm bg-white/20 dark:bg-gray-800/30 dark:border-pink-300 dark:text-pink-300 dark:hover:bg-pink-600 dark:hover:text-white"
           >
             Buy Me a Coffee
-          </Link>
+          </Link> */}
         </div>
       </AnimationContainer>
 
@@ -49,7 +49,7 @@ const Hero = () => {
       <AnimationContainer customClassName="w-[150px] sm:w-[250px] relative mb-6 lg:mb-0">
         <Image
           alt={siteConfig.author}
-          src={siteConfig.profile_image}
+          src="/img/github_profile.png"
           width={250}
           height={250}
           priority

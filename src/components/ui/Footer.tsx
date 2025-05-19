@@ -97,7 +97,7 @@ const Footer = () => {
             </svg>
             LinkedIn
           </ExternalLink>
-          <ExternalLink href={siteConfig.social.medium}>
+          {/* <ExternalLink href={siteConfig.social.medium}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 1043.63 592.71"
@@ -135,7 +135,7 @@ const Footer = () => {
               />
             </svg>
             Hashnode
-          </ExternalLink>
+          </ExternalLink> */}
         </div>
 
         <div className="flex flex-col space-y-4">

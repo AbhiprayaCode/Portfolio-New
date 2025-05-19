@@ -11,13 +11,13 @@ const StatsSection: React.FC = () => {
     <AnimationContainer customClassName="w-full mt-16">
       <div className=" w-full h-full  text-black dark:text-white bg-transparent">
         <SectionHeader
-          title="GitHub Stats"
-          content="Explore some of my key stats, achievements, and contributions on GitHub. Here's a snapshot of my journey on GitHub."
+          title="GitHub Statistics"
+          content="Here's a snapshot of my journey on GitHub."
         />
 
         <GitHubStreak />
 
-        <GitHubContributionHistory />
+        {/* <GitHubContributionHistory /> */}
 
         <GitHubTrophies />
       </div>

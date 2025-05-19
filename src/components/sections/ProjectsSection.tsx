@@ -78,8 +78,8 @@ const ProjectsSection = () => {
           <AnimationContainer customClassName="w-full flex flex-col gap-5 mb-8">
             <p className="w-full text-base text-black dark:text-white">
               These are most of the projects I've done since I started
-              programming, some of them are personal projects, freelance, work,
-              practice, or for other situations. If you want to see absolutely
+              programming, some of them are personal projects, freelance,
+              practice, academics, or for other situations. If you want to see absolutely
               all my projects, go to my{' '}
               <Link
                 href={`https://github.com/${siteConfig.social.github}`}
@@ -96,7 +96,7 @@ const ProjectsSection = () => {
           <SearchInput
             value={projectSearch}
             onChange={(e) => setProjectSearch(e.target.value)}
-            placeholder="Search projects (Languages, frameworks, libraries, etc...)"
+            placeholder="Search projects 🔍"
             ariaLabel="Search projects"
           />
 

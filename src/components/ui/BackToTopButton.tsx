@@ -31,7 +31,7 @@ const BackToTopButton = () => {
   return (
     <Button
       onPress={scrollToTop}
-      className="fixed bottom-4 right-4 p-2.5  text-black rounded-full focus:outline-none transition-all ease-in-out  dark:text-white  bg-transparent "
+      className="fixed bottom-4 right-4 p-2.5  text-black rounded-full focus:outline-none transition-all ease-in-out  dark:text-white  bg-transparent"
     >
       ↑
     </Button>

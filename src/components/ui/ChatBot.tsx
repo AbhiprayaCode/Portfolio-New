@@ -115,7 +115,7 @@ const Chatbot = () => {
     <>
       {/* Chatbot Button */}
       <div
-        className={`fixed bottom-16 right-6 z-50 p-4 bg-black dark:bg-white dark:text-white text-black rounded-full shadow-lg cursor-pointer transition-all duration-300 transform ${
+        className={`fixed bottom-16 right-6 z-50 p-3 bg-black dark:bg-white dark:text-white text-black rounded-full shadow-lg cursor-pointer transition-all duration-300 transform ${
           isOpen ? 'rotate-180' : ''
         }`}
         onClick={toggleChat}
@@ -125,10 +125,10 @@ const Chatbot = () => {
 
       {/* Chatbot Window */}
       {isOpen && (
-        <div className="fixed bottom-36 right-6 sm:right-8 w-80 sm:w-[300px] bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg border border-gray-300 dark:border-gray-600 flex flex-col h-[500px] sm:h-[400px]">
+        <div className="fixed bottom-36 right-6 sm:right-8 w-50 sm:w-[400px] bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg border border-gray-300 dark:border-gray-600 flex flex-col h-[300px] sm:h-[400px]">
           {/* Chatbot Header */}
           <div>
-            <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+            <h3 className="text-xl text-center font-semibold text-gray-900 dark:text-white">
               Chatbot
             </h3>
           </div>
@@ -143,7 +143,7 @@ const Chatbot = () => {
                 <div
                   className={`p-2 max-w-[70%] rounded-lg text-sm ${
                     msg.sender === 'user'
-                      ? 'bg-blue-500 text-white'
+                      ? 'bg-cyan-500 text-white'
                       : 'bg-gray-300 text-black dark:bg-gray-600 dark:text-white'
                   }`}
                 >
@@ -154,7 +154,7 @@ const Chatbot = () => {
           </div>
 
           {/* Input Section */}
-          <div className="mt-2 flex flex-col items-center justify-center gap-2">
+          <div className="mt-2 flex flex-col items-center justify-center gap-1">
             <Textarea
               className="w-[80%] mx-auto p-2 rounded-md text-sm dark:text-white dark:caret-white caret-black text-black"
               placeholder="Type a message..."
@@ -166,7 +166,7 @@ const Chatbot = () => {
               }
             />
             <Button
-              className="w-[80%] mx-auto bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700"
+              className="w-[80%] mx-auto bg-cyan-500 text-white p-2 rounded-md hover:bg-cyan-600 dark:bg-cyan-600 dark:hover:bg-cyan-700"
               onPress={handleSendMessage}
               disabled={loading || isRateLimitReached} // Disable button when rate limit is reached
             >

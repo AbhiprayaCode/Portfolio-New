@@ -28,7 +28,7 @@ export const siteConfig: {
     holopin: string;
   };
   other: {
-    hacktoberfest: string;
+    presidentuniversity: string;
     codsoft: string;
     github_snake: string;
   };
@@ -47,21 +47,21 @@ export const siteConfig: {
 } = {
   baseUrl: 'https://muhammadfiaz.com',
   domain: 'muhammadfiaz.com',
-  author: 'Muhammad Fiaz',
-  author_surname: 'Fiaz',
-  titlePrefix: 'Muhammad Fiaz',
-  github_org_name: 'Fiaz Technologies',
-  country: 'India',
+  author: 'Alif Elang Abhipraya',
+  author_surname: 'Alif',
+  titlePrefix: 'Alif Elang Abhipraya',
+  github_org_name: 'AbhiprayaCode',
+  country: 'Indonesia',
   profile_image:
     'https://avatars.githubusercontent.com/u/75434191?s=400&u=0aa88e4ae941c44425b2be4595cf92b68f578f8a&v=4',
   form_id: 'https://formspree.io/f/myzynpbr',
   social: {
     kofi: 'https://ko-fi.com/muhammadfiaz',
     sponsor: 'https://github.com/sponsors/muhammad-fiaz',
-    email: 'contact@muhammadfiaz.com',
+    email: 'alifelangabhipraya@gmail.com',
     twitter: '@muhammadfiaz_',
-    github: 'muhammad-fiaz',
-    linkedin: 'https://www.linkedin.com/in/muhammad-fiaz-/',
+    github: 'AbhiprayaCode',
+    linkedin: 'https://www.linkedin.com/in/alifelangabhipraya/',
     blog: 'https://articles.muhammadfiaz.com',
     medium: 'https://muhammad-fiaz.medium.com',
     dev: 'https://dev.to/muhammadfiaz',
@@ -88,9 +88,9 @@ export const siteConfig: {
     rateLimit: 10
   },
   other: {
-    hacktoberfest: 'https://hacktoberfest.com/',
+    presidentuniversity: 'https://president.ac.id/',
     codsoft: 'https://www.codsoft.in/',
     github_snake:
-      'https://raw.githubusercontent.com/muhammad-fiaz/muhammad-fiaz/output/github-contribution-grid-snake.svg'
+      'https://raw.githubusercontent.com/AbhiprayaCode/AbhiprayaCode/output/github-contribution-grid-snake.svg'
   }
 };
