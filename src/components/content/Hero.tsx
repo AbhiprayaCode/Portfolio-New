@@ -49,7 +49,7 @@ const Hero = () => {
       <AnimationContainer customClassName="w-[150px] sm:w-[250px] relative mb-6 lg:mb-0">
         <Image
           alt={siteConfig.author}
-          src="/img/github_profile.png"
+          src="/img/github_profile.jpg"
           width={250}
           height={250}
           priority
