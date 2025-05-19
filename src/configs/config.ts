@@ -45,29 +45,29 @@ export const siteConfig: {
     type: string;
   };
 } = {
-  baseUrl: 'https://muhammadfiaz.com',
-  domain: 'muhammadfiaz.com',
+  baseUrl: 'https://alifelangabhipraya.vercel.app',
+  domain: 'alifelangabhipraya.vercel.app',
   author: 'Alif Elang Abhipraya',
   author_surname: 'Alif',
   titlePrefix: 'Alif Elang Abhipraya',
   github_org_name: 'AbhiprayaCode',
   country: 'Indonesia',
   profile_image:
-    'https://avatars.githubusercontent.com/u/75434191?s=400&u=0aa88e4ae941c44425b2be4595cf92b68f578f8a&v=4',
+    '/img/github_profile.jpg',
   form_id: 'https://formspree.io/f/myzynpbr',
   social: {
     kofi: 'https://ko-fi.com/muhammadfiaz',
     sponsor: 'https://github.com/sponsors/muhammad-fiaz',
     email: 'alifelangabhipraya@gmail.com',
-    twitter: '@muhammadfiaz_',
+    twitter: '@alifelang',
     github: 'AbhiprayaCode',
     linkedin: 'https://www.linkedin.com/in/alifelangabhipraya/',
     blog: 'https://articles.muhammadfiaz.com',
-    medium: 'https://muhammad-fiaz.medium.com',
+    medium: 'https://alielangabhipraya.medium.com',
     dev: 'https://dev.to/muhammadfiaz',
     hashnode: 'https://muhammadfiaz.hashnode.dev',
     discord: 'https://discord.gg/mXMhy2EX',
-    github_organisation: 'https://github.com/FiazTechnologies',
+    github_organisation: 'https://github.com/AbhiprayaCode',
     daily_dev: {
       username: 'muhammadfiaz',
       card: 'https://api.daily.dev/devcards/v2/JVyK3ICBzKPdM0rcDj1o4.png?type=wide&r=vde'
@@ -75,9 +75,9 @@ export const siteConfig: {
     holopin: 'muhammadfiaz'
   },
   metadata: {
-    description: `Hi! I'm Muhammad Fiaz, a Full Stack developer passionate about building apps, exploring AI and ML, and collaborating on exciting projects. Let's connect!`,
+    description: `Hi! I'm Alif Abhipraya, a Full Stack developer passionate about building web apps, Cybersecurity Analyst, Cyber Threat Intelligence I'm open to collaborating on exciting projects. Let's connect!`,
     keywords:
-      'Muhammad Fiaz, Full Stack Developer, Muhammad Fiaz portfolio, Muhammad Fiaz GitHub, Web Development, Mobile Applications, Machine Learning, Artificial Intelligence, Programming Languages, Open Source Developer, App Development',
+      'Alif Abhipraya, Full Stack Developer, Alif Abhipraya portfolio, Alif Abhipraya GitHub, Web Development, Mobile Applications, Cybersecurity, Security Analyst, Programming Languages',
     type: 'website'
   },
   chatbot: {
