@@ -60,7 +60,7 @@ export const siteConfig: {
     sponsor: 'https://github.com/sponsors/muhammad-fiaz',
     email: 'alifelangabhipraya@gmail.com',
     twitter: '@alifelang',
-    github: 'AbhiprayaCode',
+    github: 'https://github.com/AbhiprayaCode',
     linkedin: 'https://www.linkedin.com/in/alifelangabhipraya/',
     blog: 'https://articles.muhammadfiaz.com',
     medium: 'https://alielangabhipraya.medium.com',
